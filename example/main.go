@@ -17,6 +17,6 @@ func main() {
 	}
 
 	log.Debugf("Debug message: %+v", log)
-	log.Debugf("Info message: %+v", log)
-	log.Debugf("Error message: %+v", log)
+	log.Infof("Info message: %+v", log)
+	log.Errorf("Error message: %+v", log)
 }
